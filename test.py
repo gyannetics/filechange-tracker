@@ -14,7 +14,7 @@ def create_files(base_path, structure):
             create_file(path, content)
 
 folder_structure = {
-    'filechange_tracker': {
+    'src': {
         '__init__.py': '# Filechange Tracker Package\n',
         'tracker.py': '''from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
