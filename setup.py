@@ -7,8 +7,8 @@ setup(
     install_requires=[
         'watchdog',
     ],
-    author='Your Name',
-    author_email='your.email@example.com',
+    author='Santosh KV',
+    author_email='gyannetics@gmail.com',
     description='A package to track file changes and create markers.',
     keywords='file tracking change monitor',
 )
